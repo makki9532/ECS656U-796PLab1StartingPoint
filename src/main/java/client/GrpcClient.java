@@ -151,6 +151,6 @@ public class GrpcClient {
 	System.out.println(C3.getC10()+" "+C3.getC11()+" "+D3.getC10()+" "+D3.getC11());
         channel.shutdown();
 	// This line was added
-	//System.out.println(C3.getC01());
+	System.out.println(C3.getC01());
     }
 }
